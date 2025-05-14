@@ -1,7 +1,7 @@
 import { Express } from "express";
 
 import UsuariosController from "../constrollers/UsuariosController.js";
-import usuarios from "../models/db";
+import usuarios from "../models/db.js"
 
 const router = Express.Router();
 
